@@ -1,0 +1,4 @@
+pip install -U -r requirements.txt 
+python detect.py --source ./inference/images/tet.jpg --weights yolov5s.pt --conf 0.4 
+python detect.py --source inference/videos/dd.mp4 --weights yolov5s.pt --conf 0.4 
+python detect.py --weights yolov5s.pt --source 0
